@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz & Joke App</title>
+
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+    <nav>
+
+        <h2>Quiz & Joke App</h2>
+
+        <ul>
+
+            <li><a href="#quiz">Quiz</a></li>
+            <li><a href="#joke-section">Jokes</a></li>
+
+        </ul>
+
+    </nav>
+
+
+
+    <div class="container">
+
+        <div class="center" id="quiz">
+
+            <h1>JavaScript Quiz</h1>
+            <p class="subtitle">
+                Test your basic web development knowledge.
+            </p>
+
+            <h3 id="question"></h3>
+
+
+            <div class="option" id="option1">
+                <input type="radio" name="answer" id="op1">
+                <label for="op1" id="label1"></label>
+
+            </div>
+
+
+            <div class="option" id="option2">
+                <input type="radio" name="answer" id="op2">
+                <label for="op2" id="label2"></label>
+
+            </div>
+
+
+            <div class="option" id="option3">
+                <input type="radio" name="answer" id="op3">
+                <label for="op3" id="label3"></label>
+
+            </div>
+
+
+            <div class="option" id="option4">
+                <input type="radio" name="answer" id="op4">
+                <label for="op4" id="label4"></label>
+
+            </div>
+
+            <button id="nextbtn">
+                Next Question
+            </button>
+
+
+            <p id="score"></p>
+
+        </div>
+
+
+
+
+        <div class="center" id="joke-section">
+
+            <h1>Random Joke</h1>
+
+            <p class="subtitle">
+                Click the button below to fetch a random joke using an API.
+            </p>
+
+            <div id="joke">
+                Click the button to get a joke.
+
+            </div>
+
+            <button id="jokebtn">
+                Get Joke
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <footer>
+
+        <p>Made by Tanuraj</p>
+
+    </footer>
+
+
+    <script src="script3.js"></script>
+
+</body>
+</html>
